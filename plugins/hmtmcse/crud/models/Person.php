@@ -10,4 +10,6 @@ class Person extends Model
 
     public $table = 'hmtmcse_crud_person';
 
+
+
 }

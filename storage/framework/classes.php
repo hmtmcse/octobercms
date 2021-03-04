@@ -1,0 +1,17 @@
+<?php return array (
+  'october\\demo\\Plugin' => 'plugins\\october\\demo\\Plugin.php',
+  'backend\\Controllers\\index' => 'modules\\backend\\controllers\\index.php',
+  'backend\\Controllers\\auth' => 'modules\\backend\\controllers\\auth.php',
+  'hmtmcse\\crud\\Plugin' => 'plugins\\hmtmcse\\crud\\Plugin.php',
+  'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
+  'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'cms\\Controllers\\index' => 'modules\\cms\\controllers\\index.php',
+  'hmtmcse\\crud\\Controllers\\person' => 'plugins\\hmtmcse\\crud\\controllers\\person.php',
+  'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
+  'hmtmcse\\crud\\Controllers\\personauto' => 'plugins\\hmtmcse\\crud\\controllers\\personauto.php',
+  'Hmtmcse\\Crud\\Controllers\\Person' => 'plugins\\hmtmcse\\crud\\controllers\\Person.php',
+  'hmtmcse\\structure\\Plugin' => 'plugins\\hmtmcse\\structure\\Plugin.php',
+  'hmtmcse\\structure\\Controllers\\person' => 'plugins\\hmtmcse\\structure\\controllers\\person.php',
+  'hmtmcse\\structure\\Controllers\\store' => 'plugins\\hmtmcse\\structure\\controllers\\store.php',
+);
