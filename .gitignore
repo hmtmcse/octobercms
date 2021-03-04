@@ -1,0 +1,14 @@
+.DS_Store
+*.log
+*.lock
+
+/storage/*
+!/storage/.gitignore
+!/storage/*/.gitignore
+!/storage/*/*/.gitignore
+!/storage/cms/disabled.json
+!/storage/framework/classes.php
+!/storage/framework/packages.php
+!/storage/framework/services.php
+.idea
+/vendor
