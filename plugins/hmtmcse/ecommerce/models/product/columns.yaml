@@ -3,6 +3,14 @@
 # ===================================
 
 columns:
-    id:
-        label: ID
+    name:
+        label: Name
+        searchable: true
+
+    type:
+        label: Type
+        searchable: true
+
+    sell_price:
+        label: Sell Price
         searchable: true

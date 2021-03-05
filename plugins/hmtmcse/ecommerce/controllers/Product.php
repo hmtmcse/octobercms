@@ -2,6 +2,7 @@
 
 use BackendMenu;
 use Backend\Classes\Controller;
+use RainLab\Blog\Models\Post;
 
 
 class Product extends Controller
@@ -20,5 +21,21 @@ class Product extends Controller
     {
         parent::__construct();
         BackendMenu::setContext('Hmtmcse.Ecommerce', 'ecommerce', 'product');
+    }
+
+    public function index()
+    {
+
+        $this->asExtension('ListController')->index();
+    }
+
+    public function create()
+    {
+        return $this->asExtension('FormController')->create();
+    }
+
+    public function update($recordId = null)
+    {
+        return $this->asExtension('FormController')->update($recordId);
     }
 }

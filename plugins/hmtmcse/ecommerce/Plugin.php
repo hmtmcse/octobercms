@@ -85,7 +85,7 @@ class Plugin extends PluginBase
                     'product' => [
                         'label'       => 'Product',
                         'icon'        => 'icon-cubes',
-                        'url'         => Backend::url('rainlab/blog/posts'),
+                        'url'         => Backend::url('hmtmcse/ecommerce/product'),
                         'permissions' => ['hmtmcse.ecommerce.*'],
                     ]
                 ]

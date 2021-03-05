@@ -3,6 +3,34 @@
 # ===================================
 
 fields:
-    id:
-        label: ID
-        disabled: true
+    name:
+        label: Name
+        required: true
+
+    sell_price:
+        label: Sell Price
+        span: left
+        type: number
+
+    type:
+        label: Type
+        span: right
+        type: dropdown
+        options:
+            PRINTING: Printing
+            SCAN: Scan
+            LAMINATION: Lamination
+            BINDING: Binding
+            HOLE_PUNCH: Hole Punch
+            PHOTO_PRINTING: Photo Printing
+            COMMERCIAL: Commercial
+
+    summery:
+        label: Summery
+        type: textarea
+
+    description:
+        label: Description
+        type: textarea
+
+

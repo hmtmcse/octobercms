@@ -14,16 +14,10 @@ class CreateProductsTable extends Migration
             $table->engine = 'InnoDB';
             $table->increments('id');
             $table->string('name');
-            $table->string('code');
-            $table->string('sku');
-            $table->string('sell_price');
-            $table->string('unit');
-            $table->string('tax');
-            $table->string('summery');
-            $table->string('description');
+            $table->decimal('sell_price')->nullable();
+            $table->string('summery')->nullable();
+            $table->string('description')->nullable();
             $table->string('type');
-            $table->string('billing');
-            $table->string('resources');
             $table->timestamps();
         });
     }

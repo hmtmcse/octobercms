@@ -10,7 +10,12 @@ class Product extends Model
     public $table = 'hmtmcse_ecommerce_product';
     protected $guarded = ['*'];
     protected $fillable = [];
-    public $rules = [];
+    public $rules = [
+        'name' => 'required'
+    ];
+    public $customMessages = [
+        'name.required' => 'A name is required.'
+    ];
     protected $casts = [];
     protected $jsonable = [];
     protected $appends = [];
