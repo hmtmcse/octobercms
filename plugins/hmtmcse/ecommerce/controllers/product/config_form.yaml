@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/hmtmcse/ecommerce/models/product/fields.yaml
+
+# Model Class name
+modelClass: Hmtmcse\Ecommerce\Models\Product
+
+# Default redirect location
+defaultRedirect: hmtmcse/ecommerce/product
+
+# Create page
+create:
+    title: Create Product
+    redirect: hmtmcse/ecommerce/product/update/:id
+    redirectClose: hmtmcse/ecommerce/product
+
+# Update page
+update:
+    title: Edit Product
+    redirect: hmtmcse/ecommerce/product
+    redirectClose: hmtmcse/ecommerce/product
+
+# Preview page
+preview:
+    title: Preview Product
