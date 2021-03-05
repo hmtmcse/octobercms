@@ -1,1 +1,15 @@
 <p>The variable value is <?= $myVariable ?></p>
+
+
+{% for item in items %}
+<li class="list-group-item">
+    <input type="hidden" name="items[]" value="{{ item }}" />
+
+    {{ item }}
+
+    <button type="button"
+            class="close pull-right"
+            aria-hidden="true"
+            onclick="$(this).closest('li').remove()">&times;</button>
+</li>
+{% endfor %}

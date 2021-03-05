@@ -58,7 +58,7 @@ class Plugin extends PluginBase
         return [
             'structure' => [
                 'label'       => 'Structure Plugin',
-                'url'         => Backend::url('hmtmcse/structure/mycontroller'),
+                'url'         => Backend::url('hmtmcse/structure/store'),
                 'icon'        => 'icon-leaf',
                 'permissions' => ['hmtmcse.structure.*'],
                 'order'       => 500,

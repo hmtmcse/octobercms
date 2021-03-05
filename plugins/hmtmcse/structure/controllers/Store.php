@@ -1,4 +1,4 @@
-<?php
+<?php namespace Hmtmcse\Structure\Controllers;
 
 
 use Backend\Classes\Controller;
