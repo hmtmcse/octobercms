@@ -2,7 +2,6 @@
 
 use BackendMenu;
 use Backend\Classes\Controller;
-use RainLab\Blog\Models\Post;
 
 
 class Product extends Controller
