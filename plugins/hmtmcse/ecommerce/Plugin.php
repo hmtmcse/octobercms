@@ -73,13 +73,13 @@ class Plugin extends PluginBase
                     'order' => [
                         'label'       => 'Order',
                         'icon'        => 'icon-list-ul',
-                        'url'         => Backend::url('rainlab/blog/categories'),
+                        'url'         => "#",
                         'permissions' => ['hmtmcse.ecommerce.*'],
                     ],
                     'customer' => [
                         'label'       => 'Customer',
                         'icon'        => 'icon-address-card',
-                        'url'         => Backend::url('rainlab/blog/posts/create'),
+                        'url'         => "#",
                         'permissions' => ['hmtmcse.ecommerce.*'],
                     ],
                     'product' => [
