@@ -10,8 +10,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'ecommerce',
-            'description' => 'No description provided yet...',
+            'name'        => 'eCommerce',
+            'description' => 'eCommerce Example Plugin',
             'author'      => 'hmtmcse',
             'icon'        => 'icon-leaf'
         ];
@@ -32,10 +32,8 @@ class Plugin extends PluginBase
 
     public function registerComponents()
     {
-        return []; // Remove this line to activate
-
         return [
-            'Hmtmcse\Ecommerce\Components\MyComponent' => 'myComponent',
+            'Hmtmcse\Ecommerce\Components\ECommerceComponent' => 'eCommerce',
         ];
     }
 
