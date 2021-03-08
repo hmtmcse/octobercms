@@ -19,6 +19,10 @@ class ECommerceComponent extends ComponentBase
         ];
     }
 
+    public function data($data=null){
+        return "Data passed " . $data;
+    }
+
     public function onSend()
     {
         // Get request data
